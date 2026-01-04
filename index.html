@@ -1,0 +1,496 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>StaySphere Group | Corporate & Short‑Term Housing</title>
+  <meta name="description" content="StaySphere Group provides professionally managed, furnished housing in Chicago and Indianapolis. Request-based booking for corporate, relocation, healthcare, and extended stays."/>
+  <link rel="icon" href="assets/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="#top" aria-label="StaySphere Group home">
+        <img src="assets/logo.png" alt="StaySphere Group logo" class="brand__logo" />
+        <div class="brand__text">
+          <div class="brand__name">StaySphere Group</div>
+          <div class="brand__meta">Chicago • Indianapolis</div>
+        </div>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="#stays">Stays</a>
+        <a href="#services">Services Provided</a>
+        <a href="#how">How it works</a>
+        <a href="#companies">For Companies</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About</a>
+        <a href="#faq">FAQs</a>
+        <a href="#contact" class="btn btn--primary btn--small">Request availability</a>
+      </nav>
+
+      <button class="navbtn" id="navbtn" aria-label="Open menu" aria-expanded="false">Menu</button>
+    </div>
+
+    <div class="mobileNav" id="mobileNav" aria-hidden="true">
+      <div class="container mobileNav__inner">
+        <a href="#stays">Stays</a>
+        <a href="#services">Services Provided</a>
+        <a href="#how">How it works</a>
+        <a href="#companies">For Companies</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About</a>
+        <a href="#faq">FAQs</a>
+        <a href="#contact" class="btn btn--primary">Request availability</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero" aria-label="Hero">
+      <div class="hero__bg" id="heroBg"></div>
+      <div class="hero__overlay"></div>
+      <div class="container hero__content">
+        <div class="chip">Verified • Professionally managed • Request‑based booking</div>
+        <h1>Furnished stays that feel elevated — built for work, relocation, and extended travel.</h1>
+        <p>
+          StaySphere Group provides professionally managed, move‑in‑ready housing in <strong>Chicago</strong> and
+          <strong>Indianapolis</strong>. No instant booking — you request dates, we confirm the best fit, pricing, and terms.
+        </p>
+        <div class="hero__cta">
+          <a href="#contact" class="btn btn--primary">Request availability</a>
+          <a href="#stays" class="btn btn--ghost">Browse stays</a>
+        </div>
+
+        <div class="trust">
+          <div class="trust__card">
+            <div class="trust__title">Work‑ready Wi‑Fi</div>
+            <div class="trust__sub">Reliable connectivity for long stays</div>
+          </div>
+          <div class="trust__card">
+            <div class="trust__title">Professional cleaning</div>
+            <div class="trust__sub">Consistent standards between stays</div>
+          </div>
+          <div class="trust__card">
+            <div class="trust__title">Secure check‑in</div>
+            <div class="trust__sub">Smart access + clear arrival guidance</div>
+          </div>
+          <div class="trust__card">
+            <div class="trust__title">Corporate‑friendly</div>
+            <div class="trust__sub">Invoices + direct billing options</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STAYS -->
+    <section class="section" id="stays">
+      <div class="container">
+        <div class="section__head">
+          <div class="kicker">Modern stays, curated</div>
+          <h2>Featured stays</h2>
+          <p class="muted">Privacy‑first listings. Exact addresses are shared after availability confirmation.</p>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <div class="card__img" style="background-image:url('assets/gallery/DSC00138.jpg')"></div>
+            <div class="card__body">
+              <div class="card__title">Extended‑stay furnished homes</div>
+              <div class="card__meta">Chicago • Indianapolis</div>
+              <div class="pills">
+                <span class="pill">Request‑based</span>
+                <span class="pill">Move‑in ready</span>
+                <span class="pill">Work‑friendly</span>
+              </div>
+              <p class="muted">A curated portfolio of professionally managed units for corporate, relocation, and extended stays.</p>
+              <div class="card__actions">
+                <button class="btn btn--ghost btn--small" data-open-request>Request stay</button>
+                <a class="btn btn--primary btn--small" href="#contact">Get options</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__img" style="background-image:url('assets/gallery/unit31(12).png')"></div>
+            <div class="card__body">
+              <div class="card__title">Work‑ready setups</div>
+              <div class="card__meta">Fast Wi‑Fi • Kitchens • Laundry</div>
+              <div class="pills">
+                <span class="pill">Wi‑Fi</span>
+                <span class="pill">Full kitchens</span>
+                <span class="pill">Laundry</span>
+              </div>
+              <p class="muted">Designed for real routines — work, cook, recharge — with consistent standards across stays.</p>
+              <div class="card__actions">
+                <button class="btn btn--ghost btn--small" data-open-request>Request stay</button>
+                <a class="btn btn--primary btn--small" href="#gallery">View gallery</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__img" style="background-image:url('assets/gallery/20221115-402 N Delaware Unit 107-6Z8A5011-HDR.jpg')"></div>
+            <div class="card__body">
+              <div class="card__title">Corporate placements</div>
+              <div class="card__meta">Teams • Projects • Interns</div>
+              <div class="pills">
+                <span class="pill">Invoices</span>
+                <span class="pill">Direct billing</span>
+                <span class="pill">Extensions</span>
+              </div>
+              <p class="muted">A professional process that’s easy to approve internally — clear terms before confirmation.</p>
+              <div class="card__actions">
+                <button class="btn btn--ghost btn--small" data-open-request>Request stay</button>
+                <a class="btn btn--primary btn--small" href="#companies">For companies</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES PROVIDED -->
+    <section class="section section--alt" id="services">
+      <div class="container">
+        <div class="section__head">
+          <div class="kicker">Services Provided</div>
+          <h2>Solutions built around your stay</h2>
+          <p class="muted">Six core services, delivered with consistent standards and responsive support.</p>
+        </div>
+
+        <div class="tabs" role="tablist" aria-label="Services Provided">
+          <button class="tab is-active" role="tab" data-tab="relocation">Relocation</button>
+          <button class="tab" role="tab" data-tab="veteran">Veteran Housing</button>
+          <button class="tab" role="tab" data-tab="healthcare">Healthcare (Travel Nurses)</button>
+          <button class="tab" role="tab" data-tab="group">Group Moves</button>
+          <button class="tab" role="tab" data-tab="corporate">Corporate Housing</button>
+          <button class="tab" role="tab" data-tab="shortterm">Short‑Term Rental</button>
+        </div>
+
+        <div class="tabpanes">
+          <div class="pane is-active" id="relocation" role="tabpanel">
+            <h3>Relocation</h3>
+            <p>We help relocating professionals and families land comfortably while they transition. Share your dates and needs, and we’ll confirm availability and send options with clear terms.</p>
+            <ul>
+              <li>Move‑in ready furnishings and essentials</li>
+              <li>Work‑friendly Wi‑Fi and practical layouts</li>
+              <li>Flexible extensions for changing timelines</li>
+            </ul>
+          </div>
+
+          <div class="pane" id="veteran" role="tabpanel">
+            <h3>Veteran Housing</h3>
+            <p>We provide clean, comfortable furnished stays with straightforward communication and dependable support — designed to make transitions easier.</p>
+            <ul>
+              <li>Privacy‑first process and secure check‑in</li>
+              <li>Professional cleaning standards</li>
+              <li>Options in Chicago and Indianapolis</li>
+            </ul>
+          </div>
+
+          <div class="pane" id="healthcare" role="tabpanel">
+            <h3>Healthcare (Traveling Nurses & Medical Professionals)</h3>
+            <p>Travel assignments require calm, functional spaces. We match medical professionals with work‑ready homes near key corridors while keeping the process simple and responsive.</p>
+            <ul>
+              <li>Quiet, rest‑forward spaces</li>
+              <li>Laundry + full kitchens for long stays</li>
+              <li>Flexible stay adjustments aligned to contracts</li>
+            </ul>
+          </div>
+
+          <div class="pane" id="group" role="tabpanel">
+            <h3>Group Moves</h3>
+            <p>Need housing for multiple guests or a project team? We can coordinate placements across a portfolio with consistent standards and centralized communication.</p>
+            <ul>
+              <li>Multi‑unit coordination</li>
+              <li>Consistent quality across stays</li>
+              <li>Clear documentation and invoicing support</li>
+            </ul>
+          </div>
+
+          <div class="pane" id="corporate" role="tabpanel">
+            <h3>Corporate Housing</h3>
+            <p>StaySphere supports corporate placements for employees, interns, contractors, and project teams with a request‑based process that reduces surprises.</p>
+            <ul>
+              <li>Corporate‑friendly documentation and invoices</li>
+              <li>Flexible terms and extensions</li>
+              <li>Utilities, Wi‑Fi, furnishings included (unit dependent)</li>
+            </ul>
+          </div>
+
+          <div class="pane" id="shortterm" role="tabpanel">
+            <h3>Short‑Term Rental</h3>
+            <p>For shorter trips, trial stays, or transitions, our short‑term rentals deliver a clean, stylish experience with the same StaySphere standards.</p>
+            <ul>
+              <li>Fast placement when timelines shift</li>
+              <li>Professionally managed, consistent quality</li>
+              <li>Simple request → confirmation flow</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="section" id="how">
+      <div class="container">
+        <div class="section__head">
+          <div class="kicker">Clarity builds trust</div>
+          <h2>How request‑based booking works</h2>
+          <p class="muted">No instant bookings. We confirm availability, fit, pricing, and terms before a stay is finalized.</p>
+        </div>
+
+        <div class="steps">
+          <div class="step">
+            <div class="step__top"><span>Step 1</span><span class="chip chip--lite">~2 minutes</span></div>
+            <div class="step__title">Submit a request</div>
+            <div class="muted">Share dates, city, guest count, and needs (parking, pets, invoicing).</div>
+          </div>
+          <div class="step">
+            <div class="step__top"><span>Step 2</span><span class="chip chip--lite">same day</span></div>
+            <div class="step__title">We confirm availability</div>
+            <div class="muted">We identify best‑fit options and send pricing + terms.</div>
+          </div>
+          <div class="step">
+            <div class="step__top"><span>Step 3</span><span class="chip chip--lite">secure</span></div>
+            <div class="step__title">Approve & finalize</div>
+            <div class="muted">Once approved, we confirm the stay and send check‑in details.</div>
+          </div>
+          <div class="step">
+            <div class="step__top"><span>Step 4</span><span class="chip chip--lite">easy</span></div>
+            <div class="step__title">Arrive & settle in</div>
+            <div class="muted">Self check‑in, clean space, and responsive support during the stay.</div>
+          </div>
+        </div>
+
+        <div class="center">
+          <button class="btn btn--primary" data-open-request>Request availability</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOR COMPANIES -->
+    <section class="section section--alt" id="companies">
+      <div class="container">
+        <div class="section__head">
+          <div class="kicker">For companies</div>
+          <h2>Corporate‑friendly stays</h2>
+          <p class="muted">Designed for HR, relocation teams, and project managers in Chicago and Indianapolis.</p>
+        </div>
+
+        <div class="grid2">
+          <div class="panel">
+            <h3>What you can expect</h3>
+            <div class="list">
+              <div class="li">Invoices available</div>
+              <div class="li">Direct billing options (case‑by‑case)</div>
+              <div class="li">Clear terms before confirmation</div>
+              <div class="li">Dedicated point of contact</div>
+              <div class="li">Privacy‑first listings</div>
+              <div class="li">Work‑ready setups</div>
+            </div>
+            <button class="btn btn--primary" data-open-request>Request corporate rates</button>
+          </div>
+
+          <div class="panel">
+            <h3>Typical use cases</h3>
+            <div class="muted">We’re built for predictable, professional placements.</div>
+            <div class="list" style="margin-top:12px;">
+              <div class="li">Project teams & contractors</div>
+              <div class="li">Relocations & HR placements</div>
+              <div class="li">Healthcare / travel professionals</div>
+              <div class="li">Insurance displacement stays</div>
+            </div>
+            <div class="note">
+              Need documentation? We can provide W‑9 / invoice formats upon request.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="section" id="gallery">
+      <div class="container">
+        <div class="section__head">
+          <div class="kicker">Gallery</div>
+          <h2>Portfolio highlights</h2>
+          <p class="muted">Click any photo to enlarge. Use the arrows to browse.</p>
+        </div>
+
+        <div class="gallery" id="galleryGrid" aria-label="Gallery grid"></div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section section--alt" id="about">
+      <div class="container">
+        <div class="section__head">
+          <div class="kicker">About</div>
+          <h2>About StaySphere Group</h2>
+          <p class="muted">A professional housing partner focused on consistency, clarity, and a premium stay experience.</p>
+        </div>
+
+        <div class="grid2">
+          <div class="panel">
+            <h3>Our approach</h3>
+            <p>StaySphere Group provides furnished housing built around real-life stays — work travel, relocations, healthcare assignments, and extended visits. We focus on clean, comfortable, well‑equipped spaces with service that makes the process simple from request to check‑out.</p>
+            <div class="list" style="margin-top:12px;">
+              <div class="li">Quality standards across stays</div>
+              <div class="li">Fast, professional communication</div>
+              <div class="li">Request‑based booking for clarity</div>
+              <div class="li">Chicago + Indianapolis coverage</div>
+            </div>
+          </div>
+
+          <div class="panel">
+            <h3>Trust & safety</h3>
+            <p class="muted">Small details make a big difference — especially for long stays.</p>
+            <div class="list" style="margin-top:12px;">
+              <div class="li">Professional cleaning between stays</div>
+              <div class="li">Secure check‑in guidance</div>
+              <div class="li">Privacy‑first listings (no public addresses)</div>
+              <div class="li">Responsive support throughout the stay</div>
+            </div>
+            <div class="note">We confirm availability and terms before a stay is finalized — so expectations are clear from day one.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" id="faq">
+      <div class="container">
+        <div class="section__head">
+          <div class="kicker">FAQs</div>
+          <h2>Answers up front</h2>
+          <p class="muted">Clear policies build confidence. If you have a specific question, reach out and we’ll respond quickly.</p>
+        </div>
+
+        <div class="faq" id="faqWrap">
+          <details open>
+            <summary>Is booking request‑based?</summary>
+            <div class="muted">Yes. You submit a request and we confirm availability, pricing, and terms before a stay is finalized.</div>
+          </details>
+          <details>
+            <summary>Do you support corporate billing and invoicing?</summary>
+            <div class="muted">Yes. Invoices are available and direct billing can be arranged case‑by‑case depending on the stay.</div>
+          </details>
+          <details>
+            <summary>What are your service areas?</summary>
+            <div class="muted">We currently serve <strong>Chicago</strong> and <strong>Indianapolis</strong>.</div>
+          </details>
+          <details>
+            <summary>Are addresses shown publicly?</summary>
+            <div class="muted">No. Exact addresses are shared after confirming availability and fit.</div>
+          </details>
+          <details>
+            <summary>Are homes professionally cleaned?</summary>
+            <div class="muted">Yes. Homes are professionally cleaned between stays with regular quality checks.</div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT / REQUEST -->
+    <section class="section section--alt" id="contact">
+      <div class="container">
+        <div class="section__head">
+          <div class="kicker">Request availability</div>
+          <h2>Tell us what you need</h2>
+          <p class="muted">Submit a request and we’ll respond with options, pricing, and terms.</p>
+        </div>
+
+        <div class="grid2">
+          <div class="panel">
+            <h3>Contact</h3>
+            <div class="contactLine"><strong>Service areas:</strong> Chicago • Indianapolis</div>
+            <div class="contactLine"><strong>Email:</strong> <a href="mailto:admin@stayspheregroup.com">admin@stayspheregroup.com</a></div>
+            <div class="contactLine"><strong>Phone:</strong> <a href="tel:3179192347">317-919-2347</a></div>
+            <div class="note">Request‑based booking helps us confirm the best fit before finalizing your stay.</div>
+          </div>
+
+          <div class="panel">
+            <h3>Request form</h3>
+            <form id="requestForm" class="form">
+              <div class="form__row">
+                <label>Full name<input required name="name" placeholder="Jane Doe" /></label>
+                <label>Email<input required type="email" name="email" placeholder="jane@company.com" /></label>
+              </div>
+              <div class="form__row">
+                <label>Phone<input name="phone" placeholder="317-919-2347" /></label>
+                <label>Company (optional)<input name="company" placeholder="Company / Org" /></label>
+              </div>
+              <div class="form__row">
+                <label>City<input name="city" placeholder="Chicago or Indianapolis" /></label>
+                <label>Guests<input name="guests" placeholder="2" /></label>
+              </div>
+              <div class="form__row">
+                <label>Check‑in<input type="date" name="checkin" required /></label>
+                <label>Check‑out<input type="date" name="checkout" required /></label>
+              </div>
+              <label>Notes<textarea name="notes" rows="4" placeholder="Parking, pets, invoicing, special requests, etc."></textarea></label>
+
+              <div class="form__actions">
+                <button class="btn btn--primary" type="submit">Submit request</button>
+                <a class="btn btn--ghost" id="emailFallback" href="#">Or email us</a>
+              </div>
+
+              <div class="form__status" id="formStatus" role="status" aria-live="polite"></div>
+
+              <div class="muted small" style="margin-top:10px;">
+                Google Forms integration is supported. If you haven’t connected your Form yet, the email fallback still works.
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <div class="footer__brand">StaySphere Group</div>
+        <div class="muted">Chicago • Indianapolis</div>
+        <div class="muted small">Request‑based booking • Professionally managed furnished stays</div>
+      </div>
+      <div class="footer__links">
+        <a href="#stays">Stays</a>
+        <a href="#services">Services</a>
+        <a href="#companies">For Companies</a>
+        <a href="#contact">Request</a>
+      </div>
+      <div class="footer__contact">
+        <a href="mailto:admin@stayspheregroup.com">admin@stayspheregroup.com</a>
+        <a href="tel:3179192347">317-919-2347</a>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <span>© <span id="year"></span> StaySphere Group. All rights reserved.</span>
+      <span class="muted small">Brand colors derived from your logo (#03848c / #042a40).</span>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox__close" id="lbClose" aria-label="Close">Close</button>
+    <button class="lightbox__nav lightbox__nav--left" id="lbPrev" aria-label="Previous">‹</button>
+    <img class="lightbox__img" id="lbImg" alt="Enlarged gallery image" />
+    <button class="lightbox__nav lightbox__nav--right" id="lbNext" aria-label="Next">›</button>
+  </div>
+
+  <script>
+    window.__STAYSPHERE_GALLERY__ = ['assets/gallery/20221115-402 N Delaware Unit 107-6Z8A4881-HDR.jpg', 'assets/gallery/20221115-402 N Delaware Unit 107-6Z8A4886-HDR.jpg', 'assets/gallery/20221115-402 N Delaware Unit 107-6Z8A4891-HDR.jpg', 'assets/gallery/20221115-402 N Delaware Unit 107-6Z8A4896-HDR.jpg', 'assets/gallery/20221115-402 N Delaware Unit 107-6Z8A4901-HDR.jpg', 'assets/gallery/20221115-402 N Delaware Unit 107-6Z8A4906-HDR.jpg', 'assets/gallery/20221115-402 N Delaware Unit 107-6Z8A4916-HDR.jpg', 'assets/gallery/20221115-402 N Delaware Unit 107-6Z8A4921-HDR.jpg', 'assets/gallery/20221115-402 N Delaware Unit 107-6Z8A4926-HDR.jpg', 'assets/gallery/20221115-402 N Delaware Unit 107-6Z8A4931-HDR.jpg', 'assets/gallery/20221115-402 N Delaware Unit 107-6Z8A4936-HDR.jpg', 'assets/gallery/20221115-402 N Delaware Unit 107-6Z8A4941-HDR.jpg', 'assets/gallery/20221115-402 N Delaware Unit 107-6Z8A4951-HDR.jpg', 'assets/gallery/20221115-402 N Delaware Unit 107-6Z8A4956-HDR.jpg', 'assets/gallery/20221115-402 N Delaware Unit 107-6Z8A4961-HDR.jpg', 'assets/gallery/20221115-402 N Delaware Unit 107-6Z8A4966-HDR.jpg', 'assets/gallery/20221115-402 N Delaware Unit 107-6Z8A4971-HDR.jpg', 'assets/gallery/20221115-402 N Delaware Unit 107-6Z8A4976-HDR.jpg', 'assets/gallery/20221115-402 N Delaware Unit 107-6Z8A4986-HDR.jpg', 'assets/gallery/20221115-402 N Delaware Unit 107-6Z8A4991-HDR.jpg', 'assets/gallery/20221115-402 N Delaware Unit 107-6Z8A4996-HDR.jpg', 'assets/gallery/20221115-402 N Delaware Unit 107-6Z8A5001-HDR.jpg', 'assets/gallery/20221115-402 N Delaware Unit 107-6Z8A5006-HDR.jpg', 'assets/gallery/20221115-402 N Delaware Unit 107-6Z8A5011-HDR.jpg', 'assets/gallery/20221115-402 N Delaware Unit 107-6Z8A5021-HDR.jpg', 'assets/gallery/20221115-402 N Delaware Unit 107-6Z8A5026-HDR.jpg', 'assets/gallery/20221115-402 N Delaware Unit 107-6Z8A5031-HDR.jpg', 'assets/gallery/20221115-402 N Delaware Unit 107-6Z8A5036-HDR.jpg', 'assets/gallery/20221115-402 N Delaware Unit 107-6Z8A5041-HDR.jpg', 'assets/gallery/20221115-402 N Delaware Unit 107-6Z8A5046-HDR.jpg', 'assets/gallery/3G7A3448-HDR.jpg', 'assets/gallery/3G7A3451-HDR.jpg', 'assets/gallery/3G7A3472-HDR.jpg', 'assets/gallery/3G7A3475-HDR.jpg', 'assets/gallery/3G7A3496-HDR.jpg', 'assets/gallery/3G7A3499-HDR.jpg', 'assets/gallery/3G7A3517-HDR.jpg', 'assets/gallery/3G7A3520-HDR.jpg', 'assets/gallery/6Z8A3116-HDR.jpg', 'assets/gallery/6Z8A3121-HDR.jpg', 'assets/gallery/6Z8A3126-HDR.jpg', 'assets/gallery/6Z8A3131-HDR.jpg', 'assets/gallery/6Z8A3136-HDR.jpg', 'assets/gallery/6Z8A3146-HDR.jpg', 'assets/gallery/6Z8A3156-HDR.jpg', 'assets/gallery/6Z8A3166-HDR.jpg', 'assets/gallery/6Z8A3171-HDR.jpg', 'assets/gallery/6Z8A3181-HDR.jpg', 'assets/gallery/6Z8A3186-HDR.jpg', 'assets/gallery/6Z8A3196-HDR.jpg', 'assets/gallery/6Z8A3211-HDR.jpg', 'assets/gallery/6Z8A3216-HDR.jpg', 'assets/gallery/6Z8A3226-HDR.jpg', 'assets/gallery/6Z8A3236-HDR.jpg', 'assets/gallery/6Z8A3241-HDR.jpg', 'assets/gallery/6Z8A3246-HDR.jpg', 'assets/gallery/6Z8A3251-HDR.jpg', 'assets/gallery/6Z8A3256-HDR.jpg', 'assets/gallery/6Z8A3261-HDR.jpg', 'assets/gallery/DSC00003.jpg', 'assets/gallery/DSC00005.jpg', 'assets/gallery/DSC00006.jpg', 'assets/gallery/DSC00008.jpg', 'assets/gallery/DSC00010.jpg', 'assets/gallery/DSC00013.jpg', 'assets/gallery/DSC00015.jpg', 'assets/gallery/DSC00019.jpg', 'assets/gallery/DSC00024.jpg', 'assets/gallery/DSC00025.jpg', 'assets/gallery/DSC00028.jpg', 'assets/gallery/DSC00030.jpg', 'assets/gallery/DSC00036.jpg', 'assets/gallery/DSC00040.jpg', 'assets/gallery/DSC00042.jpg', 'assets/gallery/DSC00045.jpg', 'assets/gallery/DSC00047.jpg', 'assets/gallery/DSC00048.jpg', 'assets/gallery/DSC00050.jpg', 'assets/gallery/DSC00058.jpg', 'assets/gallery/DSC00060.jpg', 'assets/gallery/DSC00061.jpg', 'assets/gallery/DSC00068.jpg', 'assets/gallery/DSC00070.jpg', 'assets/gallery/DSC00076.jpg', 'assets/gallery/DSC00078.jpg', 'assets/gallery/DSC00079.jpg', 'assets/gallery/DSC00080.jpg', 'assets/gallery/DSC00081.jpg', 'assets/gallery/DSC00087.jpg', 'assets/gallery/DSC00094.jpg', 'assets/gallery/DSC00097.jpg', 'assets/gallery/DSC00104.jpg', 'assets/gallery/DSC00109.jpg', 'assets/gallery/DSC00122.jpg', 'assets/gallery/DSC00131.jpg', 'assets/gallery/DSC00138.jpg', 'assets/gallery/DSC00139.jpg', 'assets/gallery/DSC00140.jpg', 'assets/gallery/DSC00145.jpg', 'assets/gallery/DSC00149.jpg', 'assets/gallery/DSC00151.jpg', 'assets/gallery/DSC00152.jpg', 'assets/gallery/unit31(10).png', 'assets/gallery/unit31(11).png', 'assets/gallery/unit31(12).png', 'assets/gallery/unit31(13).png', 'assets/gallery/unit31(14).png', 'assets/gallery/unit31(15).png', 'assets/gallery/unit31(16).png', 'assets/gallery/unit31(2).png', 'assets/gallery/unit31(22).png', 'assets/gallery/unit31(23).png', 'assets/gallery/unit31(29).png', 'assets/gallery/unit31(3).png', 'assets/gallery/unit31(4).png', 'assets/gallery/unit31(5).png', 'assets/gallery/unit31(6).png', 'assets/gallery/unit31(7).png', 'assets/gallery/unit31(8).png', 'assets/gallery/unit31(9).png', 'assets/gallery/unit31.png'];
+    window.__STAYSPHERE_HERO__ = ['assets/gallery/DSC00138.jpg', 'assets/gallery/unit31(12).png', 'assets/gallery/20221115-402 N Delaware Unit 107-6Z8A5011-HDR.jpg', 'assets/gallery/6Z8A3146-HDR.jpg', 'assets/gallery/3G7A3448-HDR.jpg', 'assets/gallery/20221115-402 N Delaware Unit 107-6Z8A4971-HDR.jpg'];
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
